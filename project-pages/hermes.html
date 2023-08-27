@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/images/icon.jpeg" />
+     <title>Cole Kniffen's Portfolio</title>
+    <meta name="description" content="Cole Kniffen's portfolio.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Cole Kniffen</span>
+        <a class="button" href="mailto:ckniff9331@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">Hermes</div>
+        <div class="body-text">Named after the messenger god, this small PCB with a 2.4GHz RF transciever can be used to enable wireless communication which is capable of basic, customizeable digital signal processing.</div>
+        <image class="project-header-image" src="../assets/images/hermes/3D_Model.png">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">During my time at Purdue, I took ECE 44000, titled Transmission of Information.  In this class, we learned all about the premises of wireless communication.  This included the mathematical theory and practical methods behind various different modulation/demodulation techniques like AM, FM, ASK, FSK, and PSK to name a few.  We implemented many of these modulation techniques on software-defined radios in lab, but I always wanted to construct my own system at a lower level.</div>
+          <div class="body-text">I made this board with the goal to develop a small form factor system for some fun projects requiring RF communication.  This project allowed me to practice my PCB design skills and embedded systems programming. More specifically, I gained hands-on experience with practical RF signal and high-speed digital signal design with a focus on signal integrity and EMI.  Additionally, I wanted to be able to experiment with different types of antennas, so this board is compatable with various 2.4GHz (a popular, modern frequency range) antennas.  While it's definitely not the fastest RF system out there, it is more than enough for many consumer applications.  For more information on the design and some of the considerations, check out the project's Github repository below.</div>
+        </div>
+        <a class="button" href="https://github.com/colekniffen/Hermes" target="_blank">
+          <span class="button-text">Check it out on Github</span> 
+          <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container">
+              <img src="../assets/images/hermes/Layout.png" class="gallery-image">
+              <span class="image-caption">The board layout for Hermes.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/hermes/Stackup.png" class="gallery-image">
+              <span class="image-caption">The PCB stackup.  Manufactured by JLC PCB.</span>
+            </div>
+            <div class="gallery-image-container">
+              <img src="../assets/images/hermes/Schematic.png" class="gallery-image">
+              <span class="image-caption">The circuit schematic for Hermes.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/cole-kniffen/">
+        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" href="mailto:ckniff9331@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>

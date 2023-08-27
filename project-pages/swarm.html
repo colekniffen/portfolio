@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+     <link rel="icon" href="../assets/images/icon.jpeg" />
+     <title>Cole Kniffen's Portfolio</title>
+    <meta name="description" content="Cole Kniffen's portfolio.">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<link rel="stylesheet" href="../css/layout.css">
+    <link rel="stylesheet" href="../css/typography.css">
+    <link rel="stylesheet" href="../css/utilities.css">
+
+		<script defer src="../js/script.js"></script>
+	</head>
+	<body>
+    <!-- NAVBAR -->
+    <div class="navbar">
+      <a class="nav-title-link" href="../index.html">
+        <span class="nav-title">Cole Kniffen</span>
+        <a class="button" href="mailto:ckniff9331@gmail.com">
+          <span class="button-text">Contact Me</span>
+        </a>
+      </a>
+    </div>
+
+    <!-- MAIN PAGE CONTENT -->
+    <div id="main-content">
+
+      <!-- PROJECT HEADER -->
+      <div id="project-header">
+        <div class="main-title">SWARM</div>
+        <div class="body-text">Developed by Purdue University and Codex Labs, SWARM provides an easy to use, high fidelty, and low cost controls simulation engine.</div>
+        <image class="project-header-image" src="../assets/images/swarm/swarm.png">
+      </div>
+
+      <!-- PROJECT DETAILS -->
+      <div id="project-details">
+        <div class="subheader-text">Project Details</div>
+        <div class="project-details-content">
+          <div class="body-text">The first club I joined at Purdue University was the Aerial Robotics Team.  This club develops an autonomous drone for the AUVSI SUAS competition each year where drones compete to autonomously complete specific objectives including payload drops, object detection, and collision avoidance.  The main issue the team faced during development was simulating the many algorithms that needed to be tested.  One of my colleagues (the founder of Codex Labs) and I had the idea to greatly simplify the process of testing these algorithms by developing a cloud-based simulation platform.  We partnered with a Purdue professor, a primary stakeholder, to create a vertically integrated project (VIP) which allowed us to expand the team.</div>
+          <div class="body-text">The simulation engine, SWARM, is based off of Microsoft's AirSim.  This powerful tool is built using Unreal Engine to create realistic environments for testing and data collection.  Developers have control over vehicle configurations, data collection, and algorithm types to decrease development time.  After generating the intial system requirements, I led development of the web-portal and cloud infrastructure.  I obtained valuable hands-on experience with React, Ruby, and AWS.  For more information and videos, check out the links below!</div>
+        </div>
+        <a class="button" href="https://www.swarmsim.io" target="_blank">
+          <span class="button-text">Check out the simluation portal</span> 
+          <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+        <a class="button" href="https://www.codex-labs-llc.com" target="_blank">
+          <span class="button-text">Check out Codex Labs</span> 
+          <image src="../assets/icons/arrow-right.svg" class="right-arrow-icon"/>
+        </a>
+      </div>
+
+      <!-- IMAGE GALLERY -->
+      <div id="project-gallery">
+        <!-- TODO - Change the 'subheader-text' to whatever you want the Gallery section header to say -->
+        <div class="subheader-text">Image Gallery</div>
+        <div class="project-gallery-content">
+            <!-- 
+              Full Width Image:
+
+                <div class="gallery-image-container">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              Half Width Image: 
+
+                <div class="gallery-image-container half-width">
+                  <img src="../assets/images/IMAGE_NAME" class="gallery-image">
+                  <span class="image-caption">IMAGE_CAPTION</span>
+                </div>
+
+              - To add an image to the this area, copy one of the above, paste it below this comment, and change the following:
+                  - IMAGE_NAME: the name of the image file in assets/images
+                  - IMAGE_CAPTION: to the caption of the image
+            -->
+            <div class="gallery-image-container">
+              <img src="../assets/images/swarm/diagram.png" class="gallery-image">
+              <span class="image-caption">Basic system diagram for SWARM.</span>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer">
+      <a class="icon-link" target="_blank" href="https://www.linkedin.com/in/cole-kniffen/">
+        <image src="../assets/icons/linkedin.svg" class="footer-icon"/>
+      </a>
+      <a class="icon-link" href="mailto:ckniff9331@gmail.com">
+        <image src="../assets/icons/mail.svg" class="footer-icon"/>
+      </a>
+    </div>
+
+	</body>
+</html>
