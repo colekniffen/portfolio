@@ -1,6 +1,6 @@
 # Portfolio
 
-A basic portfolio to showcase my work!
+A basic portfolio to showcase my work! Check it out <a href="https://https://colekniffen.github.io/portfolio/">here</a>!
 
 #### Table of Contents:
 
